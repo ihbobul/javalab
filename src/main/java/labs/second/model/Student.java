@@ -1,4 +1,4 @@
-package labs.second;
+package labs.second.model;
 
 import java.util.Objects;
 

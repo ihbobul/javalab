@@ -1,4 +1,4 @@
-package labs.second;
+package labs.second.util;
 
 import com.google.gson.Gson;
 
