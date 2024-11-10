@@ -1,4 +1,4 @@
-import labs.fifth.FifthLab;
+import labs.seventh.SeventhLab;
 
 public class JavalabApplication {
 
@@ -6,6 +6,8 @@ public class JavalabApplication {
 //    FirstLab.run();
 //    SecondLab.run();
 //    ThirdLab.run();
-    FifthLab.run();
+//    FifthLab.run();
+//    SixthLab.run();
+    SeventhLab.run();
   }
 }

@@ -5,11 +5,6 @@ import java.util.List;
 
 public class FirstLab {
 
-  /*
-  Визначити ті рядки, довжина яких менша (більша) середньої. На вхід поступає
-  масив String. На виході – масив String.
-  */
-
   public static String[] filterStrings(String[] strings, boolean isGreater) {
     var totalLength = 0;
     for (var string : strings) {
