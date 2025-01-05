@@ -3,6 +3,7 @@ package labs.third;
 import java.util.ArrayList;
 import java.util.List;
 import labs.third.controller.ShapeController;
+import labs.third.localization.LocalizationManager;
 import labs.third.model.Circle;
 import labs.third.model.Rectangle;
 import labs.third.model.Shape;
@@ -12,8 +13,10 @@ import labs.third.view.ShapeView;
 public class ThirdLab {
 
   public static void run() {
-    List<Shape> shapes = new ArrayList<>();
+    LocalizationManager.initialize();
+    System.out.println(LocalizationManager.getMessage("welcome"));
 
+    List<Shape> shapes = new ArrayList<>();
     shapes.add(new Rectangle("Red", 3, 4));
     shapes.add(new Triangle("Green", 3, 5));
     shapes.add(new Circle("Blue", 5));
@@ -28,12 +31,12 @@ public class ThirdLab {
     ShapeController controller = new ShapeController(shapes);
     ShapeView view = new ShapeView(controller);
 
-    System.out.println("Welcome to the Shape Management System\n");
-
+    System.out.println(LocalizationManager.getMessage("displayShapes"));
     view.displayAllShapes();
     System.out.println();
 
-    view.displayTotalArea();
+    System.out.println(
+        LocalizationManager.getMessage("totalArea") + " " + controller.calculateTotalArea());
     System.out.println();
 
     view.displayTotalAreaByType(Rectangle.class);
@@ -41,9 +44,11 @@ public class ThirdLab {
     view.displayTotalAreaByType(Circle.class);
     System.out.println();
 
+    System.out.println(LocalizationManager.getMessage("sortedByArea"));
     view.displaySortedShapesByArea();
     System.out.println();
 
+    System.out.println(LocalizationManager.getMessage("sortedByColor"));
     view.displaySortedShapesByColor();
   }
 }

@@ -16,6 +16,14 @@ public class Translator {
   }
 
   public String translatePhrase(String phrase) {
+    if (phrase == null || phrase.isEmpty()) {
+      throw new IllegalArgumentException("Phrase cannot be null or empty.");
+    }
+
+    if (!dictionary.getDictionary().containsKey(phrase)) {
+      throw new IllegalArgumentException("Phrase not found in the dictionary.");
+    }
+
     return dictionary.translate(phrase);
   }
 

@@ -5,15 +5,13 @@ import java.util.concurrent.ForkJoinPool;
 
 public class EighthLab {
 
-  // The run method to initiate the functionality
   public static void run() {
     System.out.println("Welcome to Eighth Lab: Parallel Sum Calculation using ForkJoin!");
 
-    // Initialize the array with 1,000,000 random integers between 0 and 100
     int[] array = new int[1_000_000];
     Random random = new Random();
     for (int i = 0; i < array.length; i++) {
-      array[i] = random.nextInt(101);  // Generates values between 0 and 100
+      array[i] = random.nextInt(101);
     }
 
     // Create ForkJoinPool and submit the task

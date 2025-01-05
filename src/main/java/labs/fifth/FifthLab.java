@@ -10,12 +10,10 @@ public class FifthLab {
   public static void run() {
     System.out.println("Welcome to the Fifth Lab!");
 
-    // Task 1: Read the file and find the line with maximum number of words
-    String filePath = "input.txt";  // Replace with actual file path
+    String filePath = "input.txt";
     String maxWordsLine = getMaxWordsLine(filePath);
     System.out.println("Line with maximum number of words: " + maxWordsLine);
 
-    // Task 2: Caesar Cipher encryption and decryption
     String textToEncrypt = "Hello, World!";
     char keyChar = 'K';
     String encryptedText = CaesarCipher.encrypt(textToEncrypt, keyChar);
@@ -23,18 +21,15 @@ public class FifthLab {
     String decryptedText = CaesarCipher.decrypt(encryptedText, keyChar);
     System.out.println("Decrypted Text: " + decryptedText);
 
-    // Task 3: Count HTML tags from a URL
     String url = "https://www.example.com";
     TagCounter tagCounter = new TagCounter();
     tagCounter.countTags(url);
   }
 
-  // Task 1: Get line with maximum number of words from the file
   public static String getMaxWordsLine(String filePath) {
     String maxWordsLine = "";
     int maxWords = 0;
 
-    // Accessing file from resources folder
     try (BufferedReader reader = new BufferedReader(new InputStreamReader(
         Objects.requireNonNull(FifthLab.class.getClassLoader().getResourceAsStream(filePath))))) {
       String line;

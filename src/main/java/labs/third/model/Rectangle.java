@@ -1,5 +1,7 @@
 package labs.third.model;
 
+import labs.third.localization.LocalizationManager;
+
 public class Rectangle extends Shape {
 
   private final double width;
@@ -18,6 +20,6 @@ public class Rectangle extends Shape {
 
   @Override
   public void draw() {
-    System.out.println("Drawing a Rectangle");
+    System.out.println(LocalizationManager.getMessage("drawingRectangle"));
   }
 }

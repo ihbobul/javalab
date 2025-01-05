@@ -2,7 +2,7 @@ package labs.second.util;
 
 import com.google.gson.Gson;
 
-public class JsonUtility {
+public class JsonUtils {
 
   private static final Gson gson = new Gson();
 

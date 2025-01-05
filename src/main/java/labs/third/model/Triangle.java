@@ -1,5 +1,7 @@
 package labs.third.model;
 
+import labs.third.localization.LocalizationManager;
+
 public class Triangle extends Shape {
 
   private final double base;
@@ -18,6 +20,6 @@ public class Triangle extends Shape {
 
   @Override
   public void draw() {
-    System.out.println("Drawing a Triangle");
+    System.out.println(LocalizationManager.getMessage("drawingTriangle"));
   }
 }

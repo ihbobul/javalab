@@ -13,6 +13,10 @@ public class Dictionary {
   }
 
   public void addWordPair(String englishWord, String ukrainianWord) {
+    if (englishWord == null || englishWord.isEmpty() || ukrainianWord == null
+        || ukrainianWord.isEmpty()) {
+      throw new IllegalArgumentException("Words cannot be null or empty.");
+    }
     dictionary.put(englishWord, ukrainianWord);
   }
 

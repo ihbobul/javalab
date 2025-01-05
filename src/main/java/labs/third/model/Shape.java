@@ -1,5 +1,7 @@
 package labs.third.model;
 
+import labs.third.localization.LocalizationManager;
+
 public abstract class Shape implements Drawable {
 
   private String shapeColor;
@@ -16,6 +18,13 @@ public abstract class Shape implements Drawable {
 
   @Override
   public String toString() {
-    return getClass().getSimpleName() + " of color " + shapeColor + " with area: " + calcArea();
+    String area = String.format("%.2f", calcArea());
+
+    String localizedShape = LocalizationManager.getMessage(
+        getClass().getSimpleName().toLowerCase());
+
+    String localizedColor = LocalizationManager.getMessage(shapeColor.toLowerCase());
+
+    return LocalizationManager.getMessage("shapeInfo", localizedShape, localizedColor, area);
   }
 }

@@ -1,0 +1,88 @@
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController <init>
+INFO: ShapeController initialized with 10 shapes
+Nov 11, 2024 4:15:55 PM labs.third.view.ShapeView <init>
+INFO: ShapeView initialized
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController calculateTotalArea
+INFO: Total area calculated: 259.5796326794897
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Rectangle: 77.00
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Triangle: 25.50
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Circle: 157.08
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController sortShapesByArea
+INFO: Shapes sorted by area
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController sortShapesByColor
+INFO: Shapes sorted by color
+Nov 11, 2024 4:15:55 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController <init>
+INFO: ShapeController initialized with 10 shapes
+Jan 04, 2025 12:27:25 AM labs.third.view.ShapeView <init>
+INFO: ShapeView initialized
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController calculateTotalArea
+INFO: Total area calculated: 259.5796326794897
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Rectangle: 77.00
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Triangle: 25.50
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Circle: 157.08
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController sortShapesByArea
+INFO: Shapes sorted by area
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController sortShapesByColor
+INFO: Shapes sorted by color
+Jan 04, 2025 12:27:25 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController <init>
+INFO: ShapeController initialized with 10 shapes
+Jan 04, 2025 12:40:15 AM labs.third.view.ShapeView <init>
+INFO: ShapeView initialized
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController calculateTotalArea
+INFO: Total area calculated: 259.5796326794897
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Rectangle: 77.00
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Triangle: 25.50
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Circle: 157.08
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController sortShapesByArea
+INFO: Shapes sorted by area
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController sortShapesByColor
+INFO: Shapes sorted by color
+Jan 04, 2025 12:40:15 AM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController <init>
+INFO: ShapeController initialized with 10 shapes
+Jan 05, 2025 1:11:39 PM labs.third.view.ShapeView <init>
+INFO: ShapeView initialized
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController calculateTotalArea
+INFO: Total area calculated: 259.5796326794897
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Rectangle: 77.00
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Triangle: 25.50
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController calculateTotalAreaByType
+INFO: Total area for Circle: 157.08
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController sortShapesByArea
+INFO: Shapes sorted by area
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController sortShapesByColor
+INFO: Shapes sorted by color
+Jan 05, 2025 1:11:39 PM labs.third.controller.ShapeController displayShapes
+INFO: Displaying all shapes

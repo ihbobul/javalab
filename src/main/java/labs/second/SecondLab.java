@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import labs.second.model.Student;
-import labs.second.util.JsonUtility;
+import labs.second.util.JsonUtils;
 import labs.second.validation.InputValidator;
 
 public class SecondLab {
@@ -65,10 +65,10 @@ public class SecondLab {
     }
 
     Student originalStudent = students.getFirst();
-    String json = JsonUtility.toJson(originalStudent);
+    String json = JsonUtils.toJson(originalStudent);
     System.out.println("\nSerialized JSON: " + json);
 
-    Student deserializedStudent = JsonUtility.fromJson(json, Student.class);
+    Student deserializedStudent = JsonUtils.fromJson(json, Student.class);
 
     if (originalStudent.equals(deserializedStudent)) {
       System.out.println("The original and deserialized Student objects are equal.");

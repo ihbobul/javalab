@@ -1,5 +1,7 @@
 package labs.third.model;
 
+import labs.third.localization.LocalizationManager;
+
 public class Circle extends Shape {
 
   private final double radius;
@@ -16,6 +18,6 @@ public class Circle extends Shape {
 
   @Override
   public void draw() {
-    System.out.println("Drawing a Circle");
+    System.out.println(LocalizationManager.getMessage("drawingCircle"));
   }
 }
